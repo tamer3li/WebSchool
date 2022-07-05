@@ -1,0 +1,77 @@
+
+body{
+     
+    height: 600px;
+}
+
+.container{
+    
+    width: 1170px;
+    margin: auto;
+}
+}
+.clearfix{clear: both;}
+
+/*End main rulez*/
+
+/*start header*/ 
+.header .slider .intro {
+    padding-top: 260px;
+   text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.header .slider .intro h2{
+    margin: 0 auto;
+    font-size: 50px;
+    color: aliceblue;
+    border-top: 3px solid #FFF;
+    border-bottom: 3px solid #FFF;
+    width: 600px;
+}
+.header .slider .intro button{
+    background: none;
+    width: 150px;
+    
+    margin-top: 20px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.header .navbar{
+    
+    background-color: #252f31;
+    color:#fff;/*color for words*/
+   overflow: hidden; 
+}
+.header .navbar h2{
+    
+    
+    float: left;
+    
+}
+.header .navbar h2 span {
+    color: #F7600F;
+}
+.header .navbar ul {
+    
+    list-style: none;
+    padding-left: 0;/*3shan a4el el no2t elly gnb el kalam*/
+    overflow: hidden;/*3shan el links mttl3sh brh*/
+    float: right;
+}
+.header .navbar ul li{
+    float: left;
+    padding: 10px;
+}
+.header .navbar ul li a{
+    
+    color: #FFF;
+    text-decoration: none;
+}
+
+.header .navbar ul li .active a,
+.header .navbar ul li a:hover {
+    color: #F7600F;
+}
+/*end header*/
